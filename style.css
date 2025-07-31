@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  line-height: 1.6;
+  background: #1e1e1e;
+  font-family: "Segoe UI", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.hd {
+  display: flex;
+  align-items: center;
+  background: #1e1e1e;
+  justify-content: space-between;
+  padding: 1.5rem 9rem 1.5rem 3rem;
+}
+
+.logo {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+span {
+  color: #f9a825;
+}
+
+.nav ul {
+  gap: 2.5rem;
+  display: flex;
+  list-style: none;
+}
+
+.nav a {
+  color: #fff;
+  font-weight: 500;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4rem 3rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-txt {
+  flex: 1;
+  min-width: 250px;
+}
+
+.hero-txt h1 {
+  font-size: 2.5rem;
+}
+
+.scl {
+  color: #ccc;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+}
+
+.btn {
+  color: #f9a825;
+  font-weight: 600;
+  transition: 0.3s;
+  margin-top: 1rem;
+  border-radius: 25px;
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  background: transparent;
+  border: 2px solid #f9a825;
+}
+
+.btn:hover {
+  color: #1e1e1e;
+  background: #f9a825;
+}
+
+.hero-img {
+  flex: 1;
+  z-index: 1;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.img-bg {
+  width: 300px;
+  height: 320px;
+  display: flex;
+  border-radius: 50%;
+  position: relative;
+  background: #2a2520;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.img-bg img {
+  width: 100%;
+  height: auto;
+  bottom: -86px;
+  margin-bottom: 22px;
+  position: relative;
+  filter: grayscale(50%);
+}
+
+.abt {
+  flex: 1;
+  min-width: 250px;
+}
+
+.abt .lbl {
+  color: #f9a825;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  margin-bottom: 1.1rem;
+}
+
+.abt h2 {
+  font-size: 2.1rem;
+  margin-bottom: 1rem;
+}
+
+.srv {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: #121212;
+}
+
+.srv .lbl {
+  color: #f9a825;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.srv h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.srv p {
+  color: #bbb;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.cards {
+  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.cards i {
+  height: 50px;
+  padding: 20px;
+}
+
+.card {
+  transition: 0.3s;
+  min-width: 200px;
+  font-weight: 500;
+  background: #222;
+  border-radius: 12px;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  background: #333;
+}
+
+.pf,
+.ct {
+  color: #fff;
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #1e1e1e;
+}
+
+.fr {
+  color: #fff;
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #121212;
+}
+
+.lbl {
+  color: #f9a825;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.ttl {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.txt {
+  color: #ccc;
+  max-width: 600px;
+  font-size: 0.95rem;
+  margin: 0 auto 2rem;
+}
+
+.pf-grid {
+  gap: 2rem;
+  display: grid;
+  margin: 0 auto;
+  max-width: 900px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.pf-grid img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.pf-grid img:hover {
+  transform: scale(1.05);
+}
+
+.divider-container {
+  text-align: center;
+}
+
+.gold-line {
+  height: 6px;
+  width: 200px;
+  border-radius: 4px;
+  margin: 50px auto;
+  background-color: #d4a24f;
+}
+
+.fr-btns {
+  gap: 8rem;
+  display: flex;
+  justify-content: center;
+}
+
+.h21{
+  margin-left: -80px;
+}
+
+.btn1 {
+  color: #fcfbfa;
+  font-size: 12px;
+  font-weight: bold;
+  transition: 0.3s;
+  margin-top: 0.5rem;
+  border-radius: 35px;
+  display: inline-block;
+  padding: 0.1rem 1.5rem;
+  background: transparent;
+  border: 2px solid #f9a825;
+}
+
+.btn1:hover {
+  color: #faf5f5;
+  background: #f9a825;
+}
+
+.contact-container {
+  gap: 15px;
+  display: flex;
+  padding: 0 20px;
+  max-width: 500px;
+  margin: 80px auto;
+  flex-direction: column;
+}
+
+.contact-item {
+  gap: 15px;
+  display: flex;
+  padding: 12px 18px;
+  border-radius: 25px;
+  background-color: #2c2c2c;
+  transition: background 0.3s;
+}
+
+.contact-item i {
+  font-size: 20px;
+  min-width: 20px;
+  color: #f9a825;
+  text-align: center;
+}
+
+.contact-item span {
+  color: white;
+  font-size: 15px;
+}
+
+.contact-item:hover {
+  background-color: #383838;
+  cursor: pointer;
+}
