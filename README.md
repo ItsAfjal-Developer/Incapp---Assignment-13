@@ -21,7 +21,7 @@ The Assignment Demonstrates Practical use of **HTML** and **CSS** to Create a Vi
 
 ## Screenshots
 
-Below is a Preview of **Assignment 13<sup>th</sup>** , Showcasing the Layout and Styling implemented Using pure HTML and CSS. 
+Below is a Preview of **Assignment 13<sup>th</sup>** , Showcasing the Layout and Styling Implemented using pure HTML and CSS. 
 The Design focuses on Clean Structure , Responsiveness and Modern Styling.
 
 <img width="1920" height="4016" alt="Assignment-13" src="https://github.com/user-attachments/assets/337ae0e0-c48c-449f-815b-60fa4c22386b" />
